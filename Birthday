@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="style.css">
+    <title>Birthday</title>
+</head>
+<body>
+    <iframe src="HappyBirthdaySong.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+      <audio id="player" loop autoplay>
+          <source src="HappyBirthdaySong.mp3" type="audio/mp3">
+      </audio>
+      
+    <div class="bgimage">
+    </div>
+    <div class="image"><img src="cake.jpg" alt="unsplash.com" style="width:200px"></div> 
+        <div class = "text-box">
+            <h1>Happy Birthday</h1> 
+            <span style="color:rgb(228, 117, 13)">P</span>
+            <span style="color:rgb(25, 235, 172)">A</span>
+           <!--<span style="color:rgb(255, 0, 170)">G</span>-->
+            <span style="color:rgb(245, 245, 47)">V</span>
+            <span style="color:rgba(66, 241, 12, 0.89)">A</span>
+            <span style="color:rgba(94, 63, 235, 0.808)">N</span>
+            <!--<span style="color:rgb(230, 53, 86)">A</span>-->
+        </div>     
+   
+</body>
+</html>
